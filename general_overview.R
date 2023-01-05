@@ -1,4 +1,24 @@
-# Objects and functions 
+# Github key: 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
+
+#1: Explore
+#2: Clean
+#3: Manipulate
+#4: Visualize
+#5: Analyze
+
+install.packages("esquisse")
+
+install.packages("questionr")
+
+library(esquisse)
+
+library(questionr)
+
+## Reordering data$country
+data$country <- data$country %>%
+  fct_relevel(
+    NULL
+  )# Objects and functions 
 5 + 6
 a <- 5
 b <- 6
